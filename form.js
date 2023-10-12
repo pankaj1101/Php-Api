@@ -7,6 +7,7 @@ export default function Home() {
   const [formData, setFormData] = useState({
     name: '',
     age: '',
+    // add rest ...
   });
 
   const handleChange = (e) => {
@@ -63,6 +64,5 @@ export default function Home() {
         <button type="submit">Submit</button>
       </form>
     </>
-
   );
 }
